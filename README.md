@@ -26,11 +26,20 @@ EventFlow is a full-stack Node.js application designed to streamline event sign-
 🖥️ How to Use
 
 ​Launch: Open your web browser and navigate to http://localhost:3000.
+
 ​Register: Enter your Name and Email Address in the registration form.
+
 ​Process: Upon clicking "Submit," the data is sent to the Node.js backend and stored in database.db.
+
 ​Data Audit: Access the hidden endpoint http://localhost:3000/users to view the registered attendee list in JSON format.
+
 ​📂 Project Structure
+
 ​public/: Contains static frontend assets (HTML, CSS, JS).
+
 ​server.js: The core Express server and database configuration.
+
 ​database.db: The local relational database file.
+
 ​package.json: Project dependencies and metadata.
+
